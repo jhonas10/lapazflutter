@@ -58,7 +58,7 @@ class estadoImagen extends State<imagen>{
             height: 100.0,
             child:Center(
               child: RaisedButton(
-                  color: Colors.deepPurple,
+                  color: Colors.blue,
                   onPressed: picker,
                   child:Text('Activar',style: TextStyle(color: Colors.white,fontSize: 20.0))),
             ),
